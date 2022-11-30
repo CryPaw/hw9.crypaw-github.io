@@ -1,0 +1,1037 @@
+html, body {
+    background-image: url('https://images.rawpixel.com/image_1000/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtMjU1LXNhc2ktMjcuanBn.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    scroll-behavior: smooth;
+    margin: 4px 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    padding: 16px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 34px;
+    text-align: center;
+    color: ghostwhite;
+}
+
+h2 {
+    padding: 16px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+}
+
+h3 {
+    padding: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.space-logo {
+    width: 16%;
+    height: 16%;
+    align-self: center;
+    padding: 24px;
+}
+
+.main-page {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(0deg, #FFFFFF 47.08%, #5219F4 100%);
+    border: 10px solid rebeccapurple;
+    border-radius: 4%;
+}
+
+.main-page-row {
+    line-height: 24px;
+    text-indent: 25px;
+    color: ghostwhite;
+    margin: 0 auto;
+    padding: 8px 32px 8px 32px;
+    width: 600px;
+}
+
+.main-page-row-2 {
+    line-height: 24px;
+    text-align: center;
+    color: ghostwhite;
+    margin: 0 auto;
+    padding: 0 32px 32px 32px;
+    width: 568px;
+}
+
+.planets-container {
+    border: 10px solid rebeccapurple;
+    border-radius: 4%;
+    background: ghostwhite;
+    color: #1B1D1F;
+    padding: 44px;
+    margin-top: 22px;
+}
+
+.planets-1-9 { 
+    padding: 24px;
+}
+
+#content .planets-1-9 + .planets-1-9 , .pics-1-9 + .pics-1-9 {
+    border-top: 1px solid #1B1D1F;
+}
+
+.planets-1-9 > p , .atmos > p , .pics-1-9 > p {
+    line-height: 24px;
+    text-indent: 25px;
+    padding: 0 0 16px 0;
+}
+
+.a-link {
+    margin: 12px auto;
+    padding: 4px;
+    width: 308px;
+    line-height: 24px;
+    font-size: 18px;
+    border: 4px solid rebeccapurple;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    -webkit-text-stroke-width: medium;
+}
+
+.pics-1-9 {
+    padding: 24px;
+    text-align: center;
+}
+
+.pics-1-9 > img {
+    width: 28%;
+    height: 28%;
+    padding: 12px;
+}
+
+#saturn {
+    width: 52%;
+    height: 52%;
+    padding: 12px;
+}
+
+/* table-cell */
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 48px;
+    border: 10px solid rebeccapurple;
+}
+
+.block-1 {
+    display: table-cell;
+    font-size: 24px;
+    text-align: center;
+    width: 1200px;
+}
+
+.bl-2-3, .bl-4-5, .bl-6-7 {
+    width: 1200px;
+}
+
+.bl-6-7 {
+    outline: rebeccapurple 2px solid; 
+}
+
+.block-2 {
+    display: table-cell;
+    font-size: 24px;
+    text-align: center;
+    width: 1000px;
+}
+
+.block-3 {
+    display: table-cell;
+    font-size: 24px;
+    text-align: center;
+    width: 200px;
+}
+
+.block-4 {
+    display: table-cell;
+    font-size: 24px;
+    text-align: center;
+    width: 400px; 
+}
+
+.block-5 {
+    display: table-cell;
+    font-size: 24px;
+    text-align: center;
+    width: 800px;
+}
+
+.block-6 {
+    display: table-cell;
+    font-size: 24px;
+    text-align: center;
+    outline: rebeccapurple 2px solid;
+    width: 400px;
+}
+
+.block-7 {
+    display: table-cell;
+    font-size: 24px;
+    text-align: center;
+    outline: rebeccapurple 2px solid;
+    width: 800px;
+}
+
+.block-6-2-1 {
+    display: table-cell;
+    font-size: 24px;
+    text-align: center;
+    outline: rebeccapurple 2px solid;
+}
+
+ .block-6-2-1-1 {
+    display: table-cell;
+    font-size: 24px;
+    text-align: center;
+    outline: rebeccapurple 2px solid;
+}
+
+.block-4-2-0 {
+    text-align: center;
+}
+
+.block-6-2-0 {
+    text-align: center;
+}
+
+.in_t {
+    display: table-cell;
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+}
+
+.in_t2 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 108px;
+}
+
+.in_t3 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+}
+
+.in_t4 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 72px;
+}
+
+.in_t5 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 172px;
+}
+
+.in_t6 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 93px;
+}
+
+.in_t6-2-1 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 93px;
+}
+
+.in_t7 {
+    font-size: 24px;
+    height: 279px;
+}
+
+.in_t4-2-0 {
+    padding: 14px;
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    display: table-cell;
+    height: 72px;
+}
+
+/* inline-block */
+
+.block-i1 {
+    width: 1200px;
+    font-size: 0px;
+}
+
+.bl-i-2-3, .bl-i-4-5, .bl-i-6-7 {
+    width: 1200px;
+    font-size: 0px;
+}
+
+.bl-i-6-7 {
+    outline: rebeccapurple 2px solid; 
+}
+
+.block-i2 {
+    width: 1000px;
+    display: inline-block;
+    font-size: 0px;
+}
+
+.block-i3 {
+    width: 200px;
+    display: inline-block;
+    font-size: 0px;
+}
+
+.block-i4 {
+    width: 400px;
+    display: inline-block;
+    font-size: 0px; 
+}
+
+.block-i5 {
+    width: 800px;
+    display: inline-block;
+    font-size: 0px; 
+}
+
+.block-i6 {
+    outline: rebeccapurple 2px solid;
+    width: 400px;
+    display: inline-block;
+    font-size: 0px;
+}
+
+.block-i6-2-1 {
+    outline: rebeccapurple 2px solid;
+    width: 300px;
+    display: inline-block;
+    font-size: 0px;
+}
+
+ .block-i6-2-1-1 {
+    outline: rebeccapurple 2px solid;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+}
+
+.block-i7 {
+    outline: rebeccapurple 2px solid;
+    width: 800px;
+    display: inline-block;
+    font-size: 0px;
+}
+
+.in_i {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+}
+
+.in_i2 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    text-align: center;
+}
+
+.in_i3 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    text-align: center;
+}
+
+.in_i4 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    text-align: center;
+}
+
+.in_i4-2-0 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+}
+
+.in_i5 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    width: 800px;
+    display: inline-block;
+    text-align: center;
+}
+
+.in_i6 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    text-align: center;
+}
+
+.in_i6-2-1 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    text-align: center;
+}
+
+.in_i7 {
+    font-size: 24px;
+    width: 800px;
+    display: inline-block;
+    text-align: center;
+}
+
+.a-link-t-i {
+    margin: 0 auto;
+    padding: 4px;
+    width: 120px;
+    line-height: 24px;
+    font-size: 18px;
+    border: 4px solid rebeccapurple;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    -webkit-text-stroke-width: medium;
+}
+
+.header-t-i-f-l {
+    padding: 4px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 34px;
+    text-align: center;
+    color: #1B1D1F;
+}
+
+/* float */
+
+.clearfix::after{
+content: "";
+clear: both;
+display: block;
+}
+
+.block-1f {
+    text-align: center;
+    width: 1200px;
+}
+
+.blf-2-3, .blf-4-5, .blf-6-7 {
+    width: 1200px;
+}
+
+.blf-6-7 {
+    outline: rebeccapurple 2px solid; 
+}
+
+.block-2f {
+    
+    float: left;
+    font-size: 24px;
+    text-align: center;
+    width: 1000px;
+}
+
+.block-3f {
+    float: right;
+    font-size: 24px;
+    text-align: center;
+    width: 200px;
+}
+
+.block-4f {
+    float: left;
+    font-size: 24px;
+    text-align: center;
+    width: 400px; 
+}
+
+.block-5f {
+    float: right;
+    font-size: 24px;
+    text-align: center;
+    width: 800px;
+}
+
+.block-6f {
+    float: left;
+    font-size: 24px;
+    text-align: center;
+    outline: rebeccapurple 2px solid;
+    width: 400px;
+}
+
+.block-7f {
+    float: right;
+    font-size: 24px;
+    text-align: center;
+    outline: rebeccapurple 2px solid;
+    width: 800px;
+    height: 284px;
+}
+
+.block-6f-2-1 {
+    float: left;
+    font-size: 24px;
+    text-align: center;
+    outline: rebeccapurple 2px solid;
+    width: 200px;
+}
+
+ .block-6f-2-1-1 {
+    float: right;
+    font-size: 24px;
+    text-align: center;
+    outline: rebeccapurple 2px solid;
+    width: 200px;
+    height: 190px;
+}
+
+.block-4f-2-0 {
+    text-align: center;
+    width: 400px;
+}
+
+.block-6f-2-0 {
+    text-align: center;
+    width: 400px;
+}
+
+.in_f {
+    float: left;
+    width: 400px;
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+}
+
+.in_f2 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 108px;
+}
+
+.in_f3 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+}
+
+.in_f4 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 88px;
+}
+
+.in_f5 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 176px;
+}
+
+.in_f6 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 93px;
+}
+
+.in_f6-2-1-1 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 95px;
+}
+
+.in_f6-2-1-2 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 95px;
+}
+
+.in_f7 {
+    font-size: 24px;
+    height: 279px;
+}
+
+.in_f4-2-0-1 {
+    float: left;
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 88px;
+    width: 200px;
+}
+
+.in_f4-2-0-2 {
+    float: right;
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 88px;
+    width: 200px;
+}
+
+/* flex */
+
+.block-1L {
+    display: flex;
+    text-align: center;
+    width: 1200px;
+    font-size: 24px;
+}
+
+.bll-2-3, .bll-4-5, .bll-6-7 {
+    display: flex;
+    width: 1200px;
+}
+
+.bll-6-7 {
+    outline: rebeccapurple 2px solid; 
+}
+
+.block-2L {
+    font-size: 24px;
+    text-align: center;
+    width: 1000px;
+}
+
+.block-3L {
+    font-size: 24px;
+    text-align: center;
+    width: 200px;
+}
+
+.block-4L {
+    font-size: 24px;
+    text-align: center;
+    width: 400px; 
+}
+
+.block-5L {
+    font-size: 24px;
+    text-align: center;
+    width: 800px;
+}
+
+.block-6L {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    text-align: center;
+    outline: rebeccapurple 2px solid;
+    width: 400px;
+}
+
+.block-7L {
+    font-size: 24px;
+    text-align: center;
+    outline: rebeccapurple 2px solid;
+    width: 800px;
+    height: 284px;
+}
+
+.block-6L-2-1 {
+    font-size: 24px;
+    text-align: center;
+    outline: rebeccapurple 2px solid;
+    width: 200px;
+}
+
+ .block-6L-2-1-1 {
+    font-size: 24px;
+    text-align: center;
+    outline: rebeccapurple 2px solid;
+    width: 200px;
+    height: 190px;
+}
+
+.block-4L-2-0 {
+    display: flex;
+    text-align: center;
+    width: 400px;
+}
+
+.block-6L-2-0 {
+    display: flex;
+    text-align: center;
+    width: 400px;
+}
+
+.l {
+    width: 400px;
+    outline: rebeccapurple 2px solid;
+}
+
+.l2 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 108px;
+}
+
+.l3 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+}
+
+.l4 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 88px;
+}
+
+.l5 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 176px;
+}
+
+.l6 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 93px;
+}
+
+.l6-2-1-1 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 95px;
+}
+
+.l6-2-1-2 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 95px;
+}
+
+.l7 {
+    font-size: 24px;
+    height: 279px;
+}
+
+.l4-2-0-1 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 88px;
+    width: 200px;
+}
+
+.l4-2-0-2 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 88px;
+    width: 200px;
+}
+
+/* grid-columns */
+
+.block-1gc {
+    text-align: center;
+    width: 1200px;
+    font-size: 24px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+}
+
+.blgc-2-3 {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1000px 200px;
+}
+
+.blgc-4-5 {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 400px 800px;
+}
+
+.blgc-6-7 {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 400px 800px;
+}
+
+.blgc-6-7 {
+    outline: rebeccapurple 2px solid; 
+}
+
+.block-2gc {
+    font-size: 24px;
+    text-align: center;
+}
+
+.block-3gc {
+    font-size: 24px;
+    text-align: center;
+}
+
+.block-4gc {
+    font-size: 24px;
+    text-align: center;
+}
+
+.block-5gc {
+    font-size: 24px;
+    text-align: center;
+}
+
+.block-6gc {
+    font-size: 24px;
+    text-align: center;
+    outline: rebeccapurple 2px solid;
+}
+
+.block-7gc {
+    font-size: 24px;
+    text-align: center;
+    outline: rebeccapurple 2px solid;
+    height: 284px;
+}
+
+.block-6gc-2-1 {
+    font-size: 24px;
+    text-align: center;
+    outline: rebeccapurple 2px solid;
+    width: 200px;
+}
+
+ .block-6gc-2-1-1 {
+    font-size: 24px;
+    text-align: center;
+    outline: rebeccapurple 2px solid;
+    width: 200px;
+    height: 190px;
+}
+
+.block-4gc-2-0 {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+
+.block-6gc-2-0 {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+
+.in_gc {
+    outline: rebeccapurple 2px solid;
+}
+
+.in_gc2 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 108px;
+}
+
+.in_gc3 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+}
+
+.in_gc4 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 88px;
+}
+
+.in_gc5 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 176px;
+}
+
+.in_gc6 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 93px;
+}
+
+.in_gc6-2-1-1 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 95px;
+}
+
+.in_gc6-2-1-2 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 95px;
+}
+
+.in_gc7 {
+    font-size: 24px;
+    height: 279px;
+}
+
+.in_gc4-2-0-1 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 88px;
+    width: 200px;
+}
+
+.in_gc4-2-0-2 {
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+    height: 88px;
+    width: 200px;
+}
+
+/* grid-areas */
+
+.crapper {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 48px;
+    border: 10px solid rebeccapurple;
+    display: grid;
+    /* gap: 20px; */
+    height: 100vh;
+    grid-template-areas: 
+    " A A A A  B B B B  C C C C "
+    " D D D D  D D D D  F F F F "
+    " E E E E  E E E E  G G G G "
+    " E E E E  E E E E  H H H H "
+    " I I I I  L L L L  L L L L "
+    " J J K K  L L L L  L L L L "
+    " M M M M  R R R R  R R R R "
+    " N N N P  R R R R  R R R R "
+    " O O O P  R R R R  R R R R "
+    ;
+    
+}
+
+.box1 {
+    grid-area: A;
+    outline: rebeccapurple 2px solid;
+    font-size: 24px;
+}
+
+.box2 {
+    grid-area: B;
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+}
+
+.box3 {
+    grid-area: C;
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+}
+
+.box4 {
+    grid-area: D;
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+}
+
+.box5 {
+    grid-area: E;
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+}
+
+.box6 {
+    grid-area: F;
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+}
+
+.box7 {
+    grid-area: G;
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+}
+
+.box8 {
+    grid-area: H;
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+}
+
+.box9 {
+    grid-area: I;
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+}
+
+.box10 {
+    grid-area: J;
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+}
+
+.box11 {
+    grid-area: K;
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+}
+
+.box12 {
+    grid-area: L;
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+}
+
+.box13 {
+    grid-area: M;
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+}
+
+.box14 {
+    grid-area: N;
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+}
+
+.box15 {
+    grid-area: O;
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+}
+
+.box16 {
+    grid-area: P;
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+}
+
+.box17 {
+    grid-area: R;
+    font-size: 24px;
+    outline: rebeccapurple 2px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
